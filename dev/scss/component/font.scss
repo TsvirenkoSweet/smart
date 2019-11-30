@@ -1,0 +1,14 @@
+@import "mixins";
+@include font-face(Helvetica, './fonts/Helvetica/HelveticaNeueCyr-Roman',  normal, normal, ttf eot woff svg);
+@include font-face(Helvetica, './fonts/Helvetica/HelveticaNeueCyr-Bold',   bold,   normal, ttf eot woff svg);
+@include font-face(Arial,     './fonts/Arial/Arial-Black',                 900,    normal, ttf eot woff svg);
+@include font-face(ArialBoldMT,     './fonts/Arial/Arial-BoldMT',                400,   normal, ttf eot woff svg);
+@include font-face(Arial,     './fonts/Arial/ArialMT',                     normal, normal, ttf eot woff svg);
+@include font-face(Arial,     './fonts/Arial/ArialNarrow',                 normal, normal, ttf eot woff svg);
+@include font-face(Arial,     './fonts/Arial/ArialNarrow-Bold',            bold,   normal, ttf eot woff svg);
+@include font-face(Franklin, './fonts/Franklin/FranklinGothic-Demi',       normal, normal, ttf eot woff svg);
+@include font-face(Franklin, './fonts/Franklin/FranklinGothic-DemiCond',   normal, normal, ttf eot woff svg);
+@include font-face(Franklin, './fonts/Franklin/FranklinGothic-Heavy',      900,    normal, ttf eot woff svg);
+@include font-face(Franklin, './fonts/Franklin/FranklinGothic-Medium',     500,    normal, ttf eot woff svg);
+@include font-face(Franklin, './fonts/Franklin/FranklinGothic-MediumCond', 500,    normal, ttf eot woff svg);
+@include font-face(Slick,    './fonts/Slick/slick',                        normal, normal, ttf eot woff svg);

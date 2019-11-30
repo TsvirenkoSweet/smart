@@ -1,0 +1,25 @@
+@import "variable";
+.grid-card {
+  background: $white;
+  border-bottom: 2px solid #ea0a2a;
+  padding-top: $_15;
+  padding-bottom: $_15;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: $_-15;
+  margin-left: $_-15;
+  .grid-card {
+    border-bottom: 2px solid #ea0a2a;
+  }
+}
+.grid-item {
+  position: relative;
+  min-height: 1px;
+  padding-left: $_15;
+  padding-right: $_15;
+  &:last-child {
+    border-bottom: none;
+  }
+}
